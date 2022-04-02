@@ -176,39 +176,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <repositories>
-        <repository>
-            <id>loxia2</id>
-            <url>https://github.com/benjaliu/loxia2-repo/raw/master/releases</url>
-        </repository>
-    </repositories>
-
-    <!--ITWork环境-->
-    <distributionManagement>
-        <repository>
-            <id>nexus_releases</id>
-            <name>Nexus Release Repository</name>
-            <url>http://mvn.yonghui.cn/nexus/content/repositories/releases/</url>
-            <uniqueVersion>false</uniqueVersion>
-        </repository>
-        <snapshotRepository>
-            <id>nexus_snapshots</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>http://mvn.yonghui.cn/nexus/content/repositories/operation-dev/</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
-    </distributionManagement>
-
-    <!-- t1环境-->
-<!--    <distributionManagement>-->
-<!--        <repository>-->
-<!--            <id>nexus-releases</id>-->
-<!--            <url>http://nexus.yonghuivip.com/nexus/content/repositories/releases</url>-->
-<!--        </repository>-->
-<!--        <snapshotRepository>-->
-<!--            <id>nexus-snapshots</id>-->
-<!--            <url>http://nexus.yonghuivip.com/nexus/content/repositories/snapshots</url>-->
-<!--        </snapshotRepository>-->
-<!--    </distributionManagement>-->
 </project>

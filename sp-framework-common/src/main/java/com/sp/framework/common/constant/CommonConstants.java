@@ -97,8 +97,8 @@ public class CommonConstants {
      * Base64Security签名key
      */
     public final static String TOKEN_SECURITY_KEY = "MDk4ZjZiY2Q0NjIxZDM3M2NhZGU0ZTgzMjYyN2I0ZjY=";
-    public final static String TOKEN_AUDIENCE = "www.yonghui.cn";
-    public final static String TOKEN_ISSUER = "www.yonghui.cn";
+    public final static String TOKEN_AUDIENCE = "www.superspace.cn";
+    public final static String TOKEN_ISSUER = "www.superspace.cn";
     public final static String COOKIE_USER_TOKEN = "userToken";
     public final static String DEL_USER_TOKEN_KEY = "delUserTokenKey_";
     //url签名相关

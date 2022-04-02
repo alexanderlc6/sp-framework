@@ -472,7 +472,7 @@ public class HttpJsonClient {
 		System.out
 				.println("------------------------------------------------------");
 		String str2 = HttpJsonClient.getJsonData(
-				"https://cas-test.yonghui.cn:8443/casweb/login", null);
+				"https://cas-test.superspace.cn:8443/casweb/login", null);
 		System.out.println(str2);
 
 		String url = "http://127.0.0.1:8080/person/recive2";

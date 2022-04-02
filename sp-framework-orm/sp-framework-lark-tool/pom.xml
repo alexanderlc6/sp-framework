@@ -170,19 +170,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <distributionManagement>
-        <repository>
-            <id>nexus_releases</id>
-            <name>Nexus Release Repository</name>
-            <url>http://mvn.yonghui.cn/nexus/content/repositories/releases/</url>
-            <uniqueVersion>false</uniqueVersion>
-        </repository>
-        <snapshotRepository>
-            <id>nexus_snapshots</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>http://mvn.yonghui.cn/nexus/content/repositories/operation-dev/</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
-    </distributionManagement>
 </project>
