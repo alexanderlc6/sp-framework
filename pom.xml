@@ -16,6 +16,10 @@
         <module>sp-framework-orm</module>
         <module>sp-framework-redis</module>
         <module>sp-framework-registry</module>
+        <module>sp-framework-extensions</module>
+        <module>sp-framework-extensions-boot</module>
+        <module>sp-framework-baas</module>
+        <module>sp-framework-baas-common</module>
     </modules>
 
     <properties>
